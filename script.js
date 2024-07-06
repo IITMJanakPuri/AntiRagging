@@ -79,5 +79,5 @@ function generateCertificate() {
         // Clean up
         document.body.removeChild(link);
     };
-    image.src = 'antiRaggingCert.png';
+    image.src = 'IITM_Anti_Ragging_Cert.png';
 }
