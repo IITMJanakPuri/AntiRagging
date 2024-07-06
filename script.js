@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function generateCertificate() {
     const name = document.getElementById('name').value;
-    
+
     if (!name) {
         alert('Please fill out all fields.');
         return;
@@ -24,9 +24,9 @@ function generateCertificate() {
         context.drawImage(image, 0, 0);
 
         // Calculate center point for name placement
-        const nameCenterX = 999;
-        // const nameCenterY = 686;
-        const nameCenterY = 716;
+        const nameCenterX = (615 + 1375) / 2; // Center X coordinate
+        let nameCenterY = (901 + 1029) / 2; // Center Y coordinate
+        nameCenterY += 10; // Adjust Y coordinate downwards
 
         context.font = 'bold 40px Arial';
         context.fillStyle = '#000';
