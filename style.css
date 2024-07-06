@@ -87,6 +87,9 @@ h1 {
     color: #FE9B00;
     font-size: 1.5rem;
 }
+#iitm_logo{
+    width: 150px;
+}
 
 @media (min-width: 576px) {
     h1 {
