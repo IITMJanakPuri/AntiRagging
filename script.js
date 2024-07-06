@@ -25,7 +25,8 @@ function generateCertificate() {
 
         // Calculate center point for name placement
         const nameCenterX = 999;
-        const nameCenterY = 686;
+        // const nameCenterY = 686;
+        const nameCenterY = 716;
 
         context.font = 'bold 40px Arial';
         context.fillStyle = '#000';
